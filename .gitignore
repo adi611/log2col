@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Logs and data
+*.log
+*.gz
+
+# Temporary files
+*.swp
+*~
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Kafka specific
+*.pid
+*.log
+*.offsets
+*.state
+.kafka
+
+.streamlit
+output_dir
+temp_input
+128MB
+256MB
+512MB
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore config files that may contain sensitive information
+config.yml
+config.yaml
